@@ -7,6 +7,7 @@ Repositories used:
 * [mono](https://github.com/mono/mono)
 * [SignalR](http://github.com/SignalR/SignalR)
 * [Nancy](https://github.com/NancyFx/Nancy)
+* [ServiceStack](https://github.com/ServiceStack/ServiceStack)
 
 The information is collected by git-pulling entire repositories and sorting the files afterwards, so mining their history is also enabled, if one desires it. No distinction is made between various dialects/versions of each language. No documentation and build information is preserved. If you want something to work on well-defined systems, it is a good idea to search elsewhere. If you need to quickly check whether your tool that claims to work on language X, breaks if faced with thousands of files in language X, be my guest.
 
@@ -14,4 +15,4 @@ The structure of the repo is language/project/files - when a project is connecte
 
 Statistics so far (counted brutally by `ls`, `cat` and `wc -l`:
 * C: 475 files, 479370 LOC
-* C#: 26921 files, 4519644 LOC
+* C#: 28792 files, 4712395 LOC
